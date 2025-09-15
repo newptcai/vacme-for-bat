@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>name</key>
+  <string>vacme</string>
+
+  <key>settings</key>
+  <array>
+    <!-- Base UI -->
+    <dict>
+      <key>settings</key>
+      <dict>
+        <key>background</key>     <string>#FFFFEC</string> <!-- vacme W1 -->
+        <key>foreground</key>     <string>#424242</string> <!-- vacme W4 -->
+        <key>caret</key>          <string>#030093</string> <!-- vacme A1 -->
+        <key>lineHighlight</key>  <string>#EAEBDB</string> <!-- vacme Y1 (very light) -->
+        <key>selection</key>      <string>#A9ABDA</string> <!-- vacme M2 (soft violet) -->
+        <key>invisibles</key>     <string>#999957</string> <!-- vacme W3 -->
+      </dict>
+    </dict>
+
+    <!-- Comments -->
+    <dict>
+      <key>name</key>     <string>Comment</string>
+      <key>scope</key>    <string>comment</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key> <string>#999957</string> <!-- W3 -->
+        <key>fontStyle</key>  <string>italic</string>
+      </dict>
+    </dict>
+
+    <!-- Strings -->
+    <dict>
+      <key>name</key>     <string>String</string>
+      <key>scope</key>    <string>string</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key> <string>#7AB877</string> <!-- G2 -->
+      </dict>
+    </dict>
+
+    <!-- Numbers -->
+    <dict>
+      <key>name</key>     <string>Number</string>
+      <key>scope</key>    <string>constant.numeric</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key> <string>#8F7634</string> <!-- Y3 -->
+      </dict>
+    </dict>
+
+    <!-- Constants -->
+    <dict>
+      <key>name</key>     <string>Language/Builtin Constant</string>
+      <key>scope</key>    <string>constant.language, constant.character, constant.other</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key> <string>#57864E</string> <!-- G3 -->
+      </dict>
+    </dict>
+
+    <!-- Variables -->
+    <dict>
+      <key>name</key>     <string>Variable</string>
+      <key>scope</key>    <string>variable</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key> <string>#424242</string> <!-- W4 -->
+      </dict>
+    </dict>
+
+    <!-- Keywords -->
+    <dict>
+      <key>name</key>     <string>Keyword</string>
+      <key>scope</key>    <string>keyword, storage</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key> <string>#2A8DC5</string> <!-- B3 -->
+        <key>fontStyle</key>  <string>bold</string>
+      </dict>
+    </dict>
+
+    <!-- Storage type / Types -->
+    <dict>
+      <key>name</key>     <string>Type</string>
+      <key>scope</key>    <string>storage.type, support.type, support.class, entity.name.type</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key> <string>#8F7634</string> <!-- Y3 -->
+        <key>fontStyle</key>  <string>italic</string>
+      </dict>
+    </dict>
+
+    <!-- Class / Inherited class -->
+    <dict>
+      <key>name</key>     <string>Class Name</string>
+      <key>scope</key>    <string>entity.name.class, entity.other.inherited-class</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key> <string>#2A8DC5</string> <!-- B3 -->
+        <key>fontStyle</key>  <string>underline</string>
+      </dict>
+    </dict>
+
+    <!-- Functions -->
+    <dict>
+      <key>name</key>     <string>Function</string>
+      <key>scope</key>    <string>entity.name.function, support.function</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key> <string>#2A8DC5</string> <!-- B3 -->
+      </dict>
+    </dict>
+
+    <!-- Parameters -->
+    <dict>
+      <key>name</key>     <string>Parameter</string>
+      <key>scope</key>    <string>variable.parameter</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key> <string>#8888C7</string> <!-- M3 -->
+        <key>fontStyle</key>  <string>italic</string>
+      </dict>
+    </dict>
+
+    <!-- Tags -->
+    <dict>
+      <key>name</key>     <string>Tag</string>
+      <key>scope</key>    <string>entity.name.tag</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key> <string>#57864E</string> <!-- G3 -->
+      </dict>
+    </dict>
+
+    <!-- Attributes -->
+    <dict>
+      <key>name</key>     <string>Attribute</string>
+      <key>scope</key>    <string>entity.other.attribute-name</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key> <string>#2A8DC5</string> <!-- B3 -->
+      </dict>
+    </dict>
+
+    <!-- Library constants -->
+    <dict>
+      <key>name</key>     <string>Library Constant</string>
+      <key>scope</key>    <string>support.constant</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key> <string>#7AB877</string> <!-- G2 -->
+      </dict>
+    </dict>
+
+    <!-- Invalid -->
+    <dict>
+      <key>name</key>     <string>Invalid</string>
+      <key>scope</key>    <string>invalid, invalid.deprecated</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key> <string>#FFFFEC</string> <!-- W1 -->
+        <key>background</key> <string>#B85C57</string> <!-- R3 -->
+      </dict>
+    </dict>
+  </array>
+
+  <key>uuid</key>  <string>VACME-BAT-0001</string>
+  <key>colorSpaceName</key> <string>sRGB</string>
+  <key>semanticClass</key>  <string>theme.light.acme-vacme</string>
+</dict>
+</plist>
